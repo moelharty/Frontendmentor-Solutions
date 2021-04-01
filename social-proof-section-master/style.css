@@ -1,0 +1,237 @@
+:root{
+    font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Spartan', sans-serif;
+    background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+
+}
+
+.header{
+    padding: 100px;
+    margin: 90px 100px 90px 100px;
+    display: flex;
+    position: relative;
+    
+}
+.left-side{
+    width: 50%;
+}
+.left-side-h{
+    color: hsl(300, 43%, 22%) ;
+    text-align: left;
+    text-decoration: bold;
+    font-size: 40px;
+
+}
+.left-side-p{
+    color: grey;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.right-side{
+    width: 60%;
+    position: relative;
+}
+.first {
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    background-color: rgb(247, 241, 241);
+    padding: 10px ;
+    border-radius: 3px;
+
+}
+.second {
+    display: flex;
+    position: absolute;
+    margin-top: 95px; 
+    margin-left: 40px;
+    background-color: rgb(247, 241, 241);
+    padding: 10px ;
+    border-radius: 3px;   
+}
+.third {
+    display: flex;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 100px; 
+    background-color:rgb(247, 241, 241);
+    padding: 10px 40px 10px 20px;
+    border-radius: 3px;   
+}
+
+.icon{
+    margin-right: 30px;
+}
+
+.clear{
+    clear: both;
+}
+.container{
+    display: flex;
+    padding: 100px;
+    margin-top: -250px;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.card-1{
+    width: 28%;
+    height: 270px;
+    margin-bottom: 150px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    
+
+}
+.card-2{
+    width: 28%;
+    height: 270px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    position: absolute;
+    left: 33%;
+    margin-top: 1%;
+
+
+    
+
+
+}.card-3{
+    width: 28%;
+    height: 270px;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    position: absolute;
+    left: 63.3%;
+    margin-top: 2%;
+
+}
+.top-card{
+    display: flex;
+    position: relative;
+}
+.card-img{
+    width: 20%;
+    padding: 10px;
+    margin:15px;
+    border-radius: 50%;
+}
+.card-name{
+    color: white;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+.card-title{
+    color: hsl(333, 80%, 67%);
+    position: absolute;
+    font-weight: 400;
+    left: 30%;
+    top: 55%;
+}
+.info{
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    margin:15px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header{
+        padding: 40px;
+        margin:auto ;
+        display: block;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .left-side-h{
+        color: hsl(300, 43%, 22%) ;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        font-size: 16px;
+        width: 100%;
+    
+    }
+    .left-side-p{
+        color: grey;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;   
+        display: block;
+        width: 100%;
+        margin: 5px;
+    }
+    .right-side{
+        width: 100%;
+        position: relative;
+    }
+    .first {
+        display: block;
+        margin-top: 30px;
+        background-color: rgba(227, 225, 225, 0.91);
+        padding: 10px ;
+        border-radius: 3px;
+        width: 100%;    
+        position: absolute;
+        top: 0px;
+    }
+    .second {
+        display: block;
+        margin-top: 30px;
+        background-color: rgba(227, 225, 225, 0.91);
+        padding: 10px ;
+        border-radius: 3px;  
+        width: 100%;  
+        position: absolute;
+        top: 100px;  
+        left: -40px;
+    }
+    .third {
+        display: block;
+        margin-top: 30px;
+        background-color: rgba(227, 225, 225, 0.91);
+        padding: 10px ;
+        border-radius: 3px;    
+        width: 100%;  
+        position: absolute;
+        top: 200px; 
+        left: -100px;
+
+    }
+    .clear{
+        clear: both;
+    }
+    .icon{
+        margin-right: 30px;
+        padding-left: 30%;
+    }
+    .right-side-h{
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+    
+
+
+
+
+    
+}
