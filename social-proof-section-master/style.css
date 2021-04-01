@@ -46,7 +46,7 @@ body{
     display: flex;
     position: absolute;
     margin-top: 30px;
-    background-color: rgb(247, 241, 241);
+    background-color:hsl(300, 24%, 96%);
     padding: 10px ;
     border-radius: 3px;
 
@@ -56,7 +56,7 @@ body{
     position: absolute;
     margin-top: 95px; 
     margin-left: 40px;
-    background-color: rgb(247, 241, 241);
+    background-color: hsl(300, 24%, 96%);
     padding: 10px ;
     border-radius: 3px;   
 }
@@ -65,7 +65,7 @@ body{
     position: absolute;
     margin-top: 160px;
     margin-left: 100px; 
-    background-color:rgb(247, 241, 241);
+    background-color:hsl(300, 24%, 96%);
     padding: 10px 40px 10px 20px;
     border-radius: 3px;   
 }
@@ -87,7 +87,7 @@ body{
     position: relative;
 }
 .card-1{
-    width: 28%;
+    width: 460px;
     height: 270px;
     margin-bottom: 150px;
     background-color: hsl(300, 43%, 22%);
@@ -96,25 +96,26 @@ body{
 
 }
 .card-2{
-    width: 28%;
+    width: 460px;
     height: 270px;
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     position: absolute;
-    left: 33%;
+    left: 35%;
     margin-top: 1%;
+
 
 
     
 
 
 }.card-3{
-    width: 28%;
+    width: 460px;
     height: 270px;
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     position: absolute;
-    left: 63.3%;
+    left: 64%;
     margin-top: 2%;
 
 }
